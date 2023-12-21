@@ -7,11 +7,6 @@ def index():
 
 @app.route("/no_content")
 def no_content():
-    #return 'no content found' with a status of 204
-
-    #Returns:
-    #    string: no content found with 204 status code
-    
     return ({"message":"No content found"}, 204)
 
 @app.route("/exp")
